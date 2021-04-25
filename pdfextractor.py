@@ -8,7 +8,7 @@ def readFile(filename):
 
 
 def writeToCSV(bill_list, order):
-    f = open('output.csv', 'w')
+    f = open('output.xlsx', 'w')
     lines = []
     for fact in bill_list:
         line = ''
